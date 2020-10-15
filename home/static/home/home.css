@@ -1,0 +1,169 @@
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+  
+    background-image: url("back1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.slide{
+    width:100%;
+    height: 650px;
+    position: relative;
+    background-position: center center;
+}
+
+.header{
+    position: right;
+    padding: 25px 60px;
+}
+
+.header .menu {
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.slideTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.slideTitle h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.slideTitle p{
+    font-size: 16px;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* for hovering effect on buttons
+  .navbar a:hover {
+    background-color: #000;
+  }*/
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+ 
+/* CSS for contact info */
+.hell{
+    box-sizing: border-box;
+  }
+  
+/* Create two equal columns that floats next to each other */
+.ccolumn {
+    float: left;
+    width: 48%;
+    padding: 10px;
+     /* Should be removed. Only for demonstration */
+  }
+
+  
+  
+  /* Clear floats after the columns */
+  .rrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

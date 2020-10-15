@@ -1,0 +1,62 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block title %}Findme{% endblock %}
+{% block head %}
+<!--this home.css is the main css for all modules don't change it-->
+<link rel="stylesheet" href="{% static 'home/home.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+
+
+{% block content %}
+<!-- The Intro Section -->
+<div class="container">
+    <div class="row">
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>The World</b></h1>
+        <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why Get to it?</b></h1>
+        <p><span style="font-size:36px">Live your life like a pro.</span> Aren't you tired of living like a mediocore , with old custom visiting cards and social id's. Now it's time to upgrade with us at
+            Findme with in-ease access to the world. Give it a try , You will be one search away at google and no more need to send visiting cards , and with C2C security policies.
+            We are here to make your life awesome. <br><span style="font-size:32px">Give it a try you will surely love it.</span></p>
+        <button class="button">Contact us</button>
+      </div>
+      <div class="column-33">
+          <img src="{% static 'home/images/g3.jpg' %}" width="335" height="471">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Trust Section -->
+  <div class="container" style="background-color:#f1f1f1">
+    <div class="row">
+      <div class="column-33">
+        <img src="{% static 'home/images/g2.jpg' %}"  alt="App" width="335" height="471">
+      </div>
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>Confused</b></h1>
+        <h1 class="large-font" style="color:red;"><b>still, why?</b></h1>
+        <p><span style="font-size:24px">A revolution in identification.</span> What makes up a person's personality? Their temperament, attitude, thoughts, beliefs, behavior, and character. Your personality is very unique, and it is what other people see when they interact with you. Often people will describe people based on their personality, which shows how unique it is. Our executives will remain with you 24/7 because we think customers as our first priority.</p>
+        <button class="button" style="background-color:red">Read More</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- The plan Section -->
+  <div class="container">
+    <div class="row">
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>YES or NO</b></h1>
+        <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why use cards ? , when you are one search away.</b></h1>
+        <p><span style="font-size:36px">Take all the daily needs online.</span> You may be tired of sharing visiting cards and linkedin profiles now we are here ge all that shit.
+             Are you tired of paying big prices to these card companies now it's time for a switch , we will make your presence online with in ease plans. See our plans , we provide in ease access and 24/7 cusromer support.</p>
+        <button class="button">Show plans</button>
+      </div>
+      <div class="column-33">
+          <img src="{% static 'home/images/g1.jpg' %}"  width="335" height="471" >
+      </div>
+    </div>
+  </div>
+
+
+     
+{% endblock %}
